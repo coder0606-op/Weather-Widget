@@ -17,9 +17,9 @@ export default function DescriptionBox({ info }) {
     <div className="infobox">
       <h1>Weather Info </h1>
       <div className="card">
-        <Card sx={{ maxWidth: 500 }}>
+        <Card sx={{ maxWidth: 700 }}>
           <CardMedia
-            sx={{ height: 100 }}
+            sx={{ height: 140 }}
             image={
               info.humidity > 80
                 ? RAIN_URL
